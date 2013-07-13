@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="XCamera.SingleImage" Collapsed="true">
+    <Position X="10.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>SingleImage.cs</FileName>
+      <HashCode>IACIEISQoACAFAEOAQAAACMKQAAyAAAIAAiYCIBA0CA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XCamera.Class1" Collapsed="true">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Class1.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XCamera.CrossSectionForm" Collapsed="true">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>CrossSectionForm.cs</FileName>
+      <HashCode>AAQACAEAADABAAAEEACCAAECAABAAEgAAAAQAAIAIQE=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XCamera.CrossSectionViewer" Collapsed="true">
+    <Position X="5.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>CrossSectionViewer.cs</FileName>
+      <HashCode>AACAiIAAADABAAAEEICCgAEAAAAAAEgAAAAQAAAAAQA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XCamera.EnabledButton" Collapsed="true">
+    <Position X="7" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>EnabledButton.cs</FileName>
+      <HashCode>AAAAEEAAAFAAAAAAAACAAEAAAAQAAAAAAAAAQAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XCamera.GenericControl" Collapsed="true">
+    <Position X="8.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>GenericControl.cs</FileName>
+      <HashCode>AACAAAAAACAAAAAAQAKAAAAKAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XCamera.LoadController" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>LoadController.cs</FileName>
+      <HashCode>EAAACAABACAIAhAEAQCAAAACAJCAAAKACCgAIAAQAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XCamera.MainForm" Collapsed="true">
+    <Position X="12.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>MainForm.cs</FileName>
+      <HashCode>AAAIAAAgACAAAAAACACAgAJCAAFIACgAEUAAAAABAAE=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XCamera.ManualLoadController" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ManualLoadController.cs</FileName>
+      <HashCode>AAAAAAAAACQBABAAAACAIAACAABIAFAEAAAAQBAIARA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XCamera.MultiImageViewer">
+    <Position X="5.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>MultiImageViewer.cs</FileName>
+      <HashCode>SBCgCOIBQKjhIRAkCRyahFCOMiCwAEwEIUREBBiiAXE=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XCamera.ImageViewType" Collapsed="true">
+    <Position X="10.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>MultiImageViewer.cs</FileName>
+      <HashCode>AAwAAAAAAAAAAAAEgAAAIAQAAAABAIAAAAAgADAAAqA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XCamera.MultiImageViewer2" Collapsed="true">
+    <Position X="7" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>MultiImageViewer2.cs</FileName>
+      <HashCode>SBCgCOoLQKjhIRAkCRyahFAOMiKwBEwEI0REBBiiAXE=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XCamera.Pixelfly" Collapsed="true">
+    <Position X="8.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Pixelfly.cs</FileName>
+      <HashCode>IEFgAEIAAhCAEAAIABACQEgAECIAQAAQAggCEMVCEAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XCamera.CameraMode" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Pixelfly.cs</FileName>
+      <HashCode>AAAAAAAAIAEAIAAEgAAAAAQAAAABAIAAAAAgABAAAqg=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XCamera.CameraTrigger" Collapsed="true">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Pixelfly.cs</FileName>
+      <HashCode>AAABAAAAAAEAAIAEgAAAAAQAAAQBAIAAAAAgABAAAqA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XCamera.CameraGain" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Pixelfly.cs</FileName>
+      <HashCode>AAAQAAAAAAAAAAgEgAAAAAQAAAAJAIAAAAAgABAAAqA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XCamera.PixelFlyController" Collapsed="true">
+    <Position X="2.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>PixelFlyController.cs</FileName>
+      <HashCode>8JEAELAgAjAABBKABiCDMAsDHAT4AAgCEECgAARICwA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XCamera.PixelFlyError" Collapsed="true">
+    <Position X="10.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>PixelFlyError.cs</FileName>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XCamera.PixelFlyGenerator" Collapsed="true">
+    <Position X="12.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>PixelFlyGenerator.cs</FileName>
+      <HashCode>AAAAAAAAABAAAAAAAAAhAAAAAARAAAAAAAEAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XCamera.Program" Collapsed="true">
+    <Position X="5.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Program.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XCamera.Temp" Collapsed="true">
+    <Position X="12.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Temp.cs</FileName>
+      <HashCode>AAAAAAAAACAAAAQAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XCamera.UnsafeBitmap" Collapsed="true">
+    <Position X="5.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>UnsafeBitmap.cs</FileName>
+      <HashCode>AAABCBAAACAACAAAQAgAgAAIAAAAAAEAAAAAFAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XCamera.UnsafeBitmapTIF" Collapsed="true">
+    <Position X="7" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>UnsafeBitmapTIF.cs</FileName>
+      <HashCode>AAABCBAAACAACAAAQAgAgAAIAAAAAAEAAAAAFAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XCamera.Properties.Resources" Collapsed="true">
+    <Position X="7" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XCamera.Properties.Settings" Collapsed="true">
+    <Position X="8.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="XCamera.Rect" Collapsed="true">
+    <Position X="12.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Pixelfly.cs</FileName>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAgAAAAIAAAAAAAAAAAAgAA=</HashCode>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="XCamera.CamSetting" Collapsed="true">
+    <Position X="7" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Pixelfly.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAACAgAIAAUgCAAAAAAAAAQgAABkAAAA=</HashCode>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="XCamera.CamInfo" Collapsed="true">
+    <Position X="5.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Pixelfly.cs</FileName>
+      <HashCode>AkAAAAAgAABAIAACAIAEAAACAAAAEACCAAAABAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="XCamera.PixelData" Collapsed="true">
+    <Position X="8.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>UnsafeBitmap.cs</FileName>
+      <HashCode>EAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="XCamera.PixelDataG" Collapsed="true">
+    <Position X="10.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>UnsafeBitmapTIF.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAQABAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Struct>
+  <Delegate Name="XCamera.DelegateRedraw" Collapsed="true">
+    <Position X="7" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>GenericControl.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="XCamera.DelegatePictureIsTaken" Collapsed="true">
+    <Position X="5.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>PixelFlyController.cs</FileName>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="XCamera.DelegateThereIsAnError" Collapsed="true">
+    <Position X="8.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>PixelFlyController.cs</FileName>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+</ClassDiagram>

@@ -1,0 +1,202 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BD6F12EC-02BA-4258-83E7-76C9FED803AF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>XCamera</RootNamespace>
+    <AssemblyName>XCamera</AssemblyName>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ManifestCertificateThumbprint>893DB1D1ED1F312BE016F494C03F0477371421E2</ManifestCertificateThumbprint>
+    <ManifestKeyFile>XCamera_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>true</SignManifests>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="CrossSectionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CrossSectionForm.Designer.cs">
+      <DependentUpon>CrossSectionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CrossSectionViewer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GenericControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GenericControl.Designer.cs">
+      <DependentUpon>GenericControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoadController.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LoadController.Designer.cs">
+      <DependentUpon>LoadController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManualLoadController.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ManualLoadController.Designer.cs">
+      <DependentUpon>ManualLoadController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MultiImageViewer2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MultiImageViewer2.Designer.cs">
+      <DependentUpon>MultiImageViewer2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pixelfly.cs" />
+    <Compile Include="PixelFlyController.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PixelFlyController.Designer.cs">
+      <DependentUpon>PixelFlyController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PixelFlyError.cs" />
+    <Compile Include="PixelFlyGenerator.cs" />
+    <Compile Include="SingleImage.cs" />
+    <Compile Include="EnabledButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MultiImageViewer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MultiImageViewer.Designer.cs">
+      <DependentUpon>MultiImageViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CrossSectionForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CrossSectionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GenericControl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>GenericControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoadController.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>LoadController.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManualLoadController.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ManualLoadController.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MultiImageViewer.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MultiImageViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MultiImageViewer2.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MultiImageViewer2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PixelFlyController.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PixelFlyController.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Temp.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Temp.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="XCamera_TemporaryKey.pfx" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Temp.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Temp.Designer.cs">
+      <DependentUpon>Temp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UnsafeBitmap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnsafeBitmapTIF.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
